@@ -100,9 +100,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1613785315269" />
-    <state x="492" y="99" key="CommitChangelistDialog2" timestamp="1613736682556">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="492" y="78" key="CommitChangelistDialog2" timestamp="1613804663669">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="492" y="78" key="CommitChangelistDialog2/0.0.1440.900/-583.-1440.2560.1440@0.0.1440.900" timestamp="1613804663669" />
     <state x="291" y="-1109" key="CommitChangelistDialog2/0.23.1440.877/-583.-1417.2560.1417@-583.-1417.2560.1417" timestamp="1613720122438" />
     <state x="492" y="99" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1613736682556" />
     <state width="202" height="262" key="Git.Branch.Popup" timestamp="1613720751141">

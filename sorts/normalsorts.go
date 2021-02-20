@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package sorts
 
 // 1、选择排序。golang中数组是值传递的，这里地址传递数组，效率高，但是传地址的话，形参修改，实参也会更改。
 func SelectionSort(arr *[]int) {
@@ -62,15 +60,15 @@ func Swap(arr *[]int, i int, j int) {
 	(*arr)[j] = tem
 }
 
-func main() {
-	// 自动推导数组长度。但是由于形参是没指定数组大小的切片，所以这里要传入不指定大小的切片
-	// arr := [...]int{1, 2, 4, 7, 9, 3}
-	// 切片
-	arr := []int{1, 2, 4, 7, 9, 3}
-	SelectionSort(&arr)
-	for i := 0; i < len(arr); i++ {
-
-		fmt.Printf("%d\n", arr[i])
-
-	}
-}
+//func main() {
+//	// 自动推导数组长度。但是由于形参是没指定数组大小的切片，所以这里要传入不指定大小的切片
+//	// arr := [...]int{1, 2, 4, 7, 9, 3}
+//	// 切片
+//	arr := []int{1, 2, 4, 7, 9, 3}
+//	SelectionSort(&arr)
+//	for i := 0; i < len(arr); i++ {
+//
+//		fmt.Printf("%d\n", arr[i])
+//
+//	}
+//}

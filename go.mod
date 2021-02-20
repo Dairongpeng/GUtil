@@ -1,4 +1,4 @@
-module easy-go
+module gutil
 
 go 1.15
 

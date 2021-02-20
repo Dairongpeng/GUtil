@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3bf8bac-5b95-4494-be4a-d564ca093567" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/linkedlist/linklist.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ptr/ptr.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorts/normalsorts.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GUtil.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorts/advancedsorts.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tree/basetree.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorts/normalsorts.go" beforeDir="false" afterPath="$PROJECT_DIR$/sorts/normalsorts.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +49,14 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build easy-go/ptr">
+  <component name="RunManager">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="GUtil" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -67,55 +65,6 @@
       <filePath value="$PROJECT_DIR$/" />
       <package value="easy-go" />
       <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build easy-go/ptr" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="easy-go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/ptr/ptr.go" />
-      <package value="easy-go/ptr" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build gutil/ptr" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GUtil" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/ptr/ptr.go" />
-      <package value="gutil/ptr" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build gutil/sorts" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GUtil" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/sorts/normalsorts.go" />
-      <package value="gutil/sorts" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestDownload in easy-go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="GUtil" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="easy-go" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestDownload$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestDownload in gutil/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="GUtil" />
-      <working_directory value="$PROJECT_DIR$/test" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="gutil/test" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestDownload$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -129,22 +78,14 @@
       <filePath value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Go Build.go build easy-go/ptr" />
-        <item itemvalue="Go Build.go build gutil/sorts" />
-        <item itemvalue="Go Build.go build gutil/ptr" />
-        <item itemvalue="Go Test.TestDownload in gutil/test" />
-        <item itemvalue="Go Test.TestDownload in easy-go" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init +" />
-    <option name="LAST_COMMIT_MESSAGE" value="init +" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -155,46 +96,52 @@
       <screen x="-583" y="-1417" width="2560" height="1417" />
     </state>
     <state x="297" y="-1043" key="#Notifications/0.23.1440.877/-583.-1417.2560.1417@-583.-1417.2560.1417" timestamp="1613720439590" />
-    <state x="291" y="-1109" key="CommitChangelistDialog2" timestamp="1613720122438">
-      <screen x="-583" y="-1417" width="2560" height="1417" />
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613785315269">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1613785315269" />
+    <state x="492" y="99" key="CommitChangelistDialog2" timestamp="1613736682556">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="291" y="-1109" key="CommitChangelistDialog2/0.23.1440.877/-583.-1417.2560.1417@-583.-1417.2560.1417" timestamp="1613720122438" />
+    <state x="492" y="99" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1613736682556" />
     <state width="202" height="262" key="Git.Branch.Popup" timestamp="1613720751141">
       <screen x="-583" y="-1417" width="2560" height="1417" />
     </state>
     <state width="202" height="262" key="Git.Branch.Popup/0.23.1440.877/-583.-1417.2560.1417@-583.-1417.2560.1417" timestamp="1613720751141" />
-    <state width="1398" height="141" key="GridCell.Tab.0.bottom" timestamp="1613736656382">
+    <state width="1398" height="141" key="GridCell.Tab.0.bottom" timestamp="1613738862603">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="101" key="GridCell.Tab.0.bottom/0.0.1440.900/-583.-1440.2560.1440@0.0.1440.900" timestamp="1613733868832" />
     <state width="2518" height="256" key="GridCell.Tab.0.bottom/0.23.1440.877/-583.-1417.2560.1417@-583.-1417.2560.1417" timestamp="1613720827924" />
-    <state width="1398" height="141" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1613736656382" />
-    <state width="1398" height="141" key="GridCell.Tab.0.center" timestamp="1613736656381">
+    <state width="1398" height="141" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1613738862603" />
+    <state width="1398" height="141" key="GridCell.Tab.0.center" timestamp="1613738862602">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="101" key="GridCell.Tab.0.center/0.0.1440.900/-583.-1440.2560.1440@0.0.1440.900" timestamp="1613733868831" />
     <state width="2518" height="256" key="GridCell.Tab.0.center/0.23.1440.877/-583.-1417.2560.1417@-583.-1417.2560.1417" timestamp="1613720827923" />
-    <state width="1398" height="141" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1613736656381" />
-    <state width="1398" height="141" key="GridCell.Tab.0.left" timestamp="1613736656380">
+    <state width="1398" height="141" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1613738862602" />
+    <state width="1398" height="141" key="GridCell.Tab.0.left" timestamp="1613738862602">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="101" key="GridCell.Tab.0.left/0.0.1440.900/-583.-1440.2560.1440@0.0.1440.900" timestamp="1613733868830" />
     <state width="2518" height="256" key="GridCell.Tab.0.left/0.23.1440.877/-583.-1417.2560.1417@-583.-1417.2560.1417" timestamp="1613720827923" />
-    <state width="1398" height="141" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1613736656380" />
-    <state width="1398" height="141" key="GridCell.Tab.0.right" timestamp="1613736656381">
+    <state width="1398" height="141" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1613738862602" />
+    <state width="1398" height="141" key="GridCell.Tab.0.right" timestamp="1613738862602">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="101" key="GridCell.Tab.0.right/0.0.1440.900/-583.-1440.2560.1440@0.0.1440.900" timestamp="1613733868832" />
     <state width="2518" height="256" key="GridCell.Tab.0.right/0.23.1440.877/-583.-1417.2560.1417@-583.-1417.2560.1417" timestamp="1613720827924" />
-    <state width="1398" height="141" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1613736656381" />
-    <state x="229" y="100" key="SettingsEditor" timestamp="1613736531946">
+    <state width="1398" height="141" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1613738862602" />
+    <state x="229" y="100" key="SettingsEditor" timestamp="1613785358932">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="229" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1613736531946" />
-    <state x="297" y="-969" key="Vcs.Push.Dialog.v2" timestamp="1613720792390">
-      <screen x="-583" y="-1417" width="2560" height="1417" />
+    <state x="229" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1613785358932" />
+    <state x="495" y="300" key="Vcs.Push.Dialog.v2" timestamp="1613736687460">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="297" y="-969" key="Vcs.Push.Dialog.v2/0.23.1440.877/-583.-1417.2560.1417@-583.-1417.2560.1417" timestamp="1613720792390" />
+    <state x="495" y="300" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1613736687460" />
     <state x="486" y="-785" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613720605158">
       <screen x="-583" y="-1417" width="2560" height="1417" />
     </state>

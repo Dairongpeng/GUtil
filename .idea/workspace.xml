@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3bf8bac-5b95-4494-be4a-d564ca093567" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tree/treeplus.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/aname_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +83,8 @@
     <MESSAGE value="init +" />
     <MESSAGE value="fix" />
     <MESSAGE value="sort &amp; base tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="sort &amp; base tree" />
+    <MESSAGE value="tree plus" />
+    <option name="LAST_COMMIT_MESSAGE" value="tree plus" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -98,10 +99,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1613785315269" />
-    <state x="492" y="78" key="CommitChangelistDialog2" timestamp="1613804670416">
+    <state x="492" y="78" key="CommitChangelistDialog2" timestamp="1613813916830">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="492" y="78" key="CommitChangelistDialog2/0.0.1440.900/-583.-1440.2560.1440@0.0.1440.900" timestamp="1613804670416" />
+    <state x="492" y="78" key="CommitChangelistDialog2/0.0.1440.900/-583.-1440.2560.1440@0.0.1440.900" timestamp="1613813916830" />
     <state x="291" y="-1109" key="CommitChangelistDialog2/0.23.1440.877/-583.-1417.2560.1417@-583.-1417.2560.1417" timestamp="1613720122438" />
     <state x="492" y="99" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1613736682556" />
     <state width="202" height="262" key="Git.Branch.Popup" timestamp="1613720751141">
@@ -136,16 +137,17 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="229" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1613785358932" />
-    <state x="495" y="284" key="Vcs.Push.Dialog.v2" timestamp="1613804678262">
+    <state x="495" y="284" key="Vcs.Push.Dialog.v2" timestamp="1613813924755">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="495" y="284" key="Vcs.Push.Dialog.v2/0.0.1440.900/-583.-1440.2560.1440@0.0.1440.900" timestamp="1613804678262" />
+    <state x="495" y="284" key="Vcs.Push.Dialog.v2/0.0.1440.900/-583.-1440.2560.1440@0.0.1440.900" timestamp="1613813924755" />
     <state x="297" y="-969" key="Vcs.Push.Dialog.v2/0.23.1440.877/-583.-1417.2560.1417@-583.-1417.2560.1417" timestamp="1613720792390" />
     <state x="495" y="300" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1613736687460" />
-    <state x="486" y="-785" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613720605158">
-      <screen x="-583" y="-1417" width="2560" height="1417" />
+    <state x="601" y="414" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614690048093">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="486" y="-785" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/-583.-1417.2560.1417@-583.-1417.2560.1417" timestamp="1613720605158" />
+    <state x="601" y="414" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1614690048093" />
     <state x="400" y="-910" key="git4idea.merge.GitPullDialog" timestamp="1613720661984">
       <screen x="-583" y="-1417" width="2560" height="1417" />
     </state>
